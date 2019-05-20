@@ -1,0 +1,75 @@
+{
+	// Place your snippets for latex here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+    "homeworkTemplate": {
+        "prefix": "homeworkTemplate",
+        "body": ["\\documentclass{article}",
+		"\\usepackage[utf8]{inputenc}",
+		"\\title{${1:_-_-_-HOMEWORK TITLE_-_-_-}}",
+		"\\author{Scott J.K. Carnahan}",
+		"\\date{${2:_-_-_-DUE DATE_-_-_-}}",
+		"",
+		"\\usepackage{natbib}",
+		"\\usepackage{graphicx}",
+		"\\usepackage{amsmath}",
+		"\\usepackage{float}",
+		"\\usepackage[]{pdfpages}",
+		"\\usepackage{siunitx}",
+		"\\usepackage{hyperref}",
+		"\\usepackage{cleveref}",
+		"\\usepackage{url}",
+		"",
+		"\\begin{document}",
+		"",
+		"\\maketitle",
+		"\\tableofcontents",
+		"",
+		"% \\bibliography{references}",
+		"\\end{document}",
+		]
+	},
+
+	"table-basic": {
+        "prefix": "table-basic",
+        "body": ["\\begin{table}[h!]",
+		" \\centering",
+		"  \\begin{tabular}{||c c c c||} ",
+		"   \\hline",
+		"   Col1 & Col2 & Col2 & Col3 \\\\\\\\ [0.5ex] ",
+		"   \\hline\\hline",
+		"   1 & 6 & 87837 & 787 \\\\\\\\ ",
+		"   2 & 7 & 78 & 5415 \\\\\\\\",
+		"   3 & 545 & 778 & 7507 \\\\\\\\",
+		"   4 & 545 & 18744 & 7560 \\\\\\\\",
+		"   5 & 88 & 788 & 6344 \\\\\\\\ [1ex] ",
+		"   \\hline",
+		"  \\end{tabular}",
+		"  \\caption{${1:CAPTION}}",
+		"  \\label{tab:${2:LABEL}}",
+		"\\end{table}",
+		]
+	},
+
+	"figure-basic": {
+        "prefix": "figure-basic",
+        "body": ["\\begin{figure}[${1:PLACEMENT}]",
+		" \\centering",
+		"  \\includegraphics[]{./figures/${2:FILEPATH}}",
+		"  \\caption{${4:CAPTIONCONTENT}}",
+		"  \\label{fig:${3:REFNAME}}",
+		"\\end{figure}",
+		]
+	},
+}

@@ -1,0 +1,25 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "latex-workshop.view.pdf.viewer": "external",
+    "editor.wordWrap": "on",
+    "files.exclude": {
+        "**/.gitignore": true,
+        "**/*.aux": true,
+        "**/*.bbl": true,
+        "**/*.blg": true,
+        "**/*.code-workspace": true,
+        "**/*.fdb_latexmk": true,
+        "**/*.fls": true,
+        "**/*.log": true,
+        "**/*.out": true,
+        "**/*.synctex.gz": true,
+        "**/*.toc": true,
+        "**/LICENSE.md": true,
+        "**/README.md": true
+    },
+    "files.autoSave": "off",
+    "templateGenerator.fields.author": "Scott J.K. Carnahan",
+    "templateGenerator.fields.email": "scott.carnahan@colorado.edu",
+    "templateGenerator.fields.link": "in/sjkcarnahan",
+    "codeTemplateTool.userInput.confirmOnEnter": true
+}
