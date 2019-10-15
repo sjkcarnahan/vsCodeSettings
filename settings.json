@@ -21,5 +21,9 @@
     "templateGenerator.fields.author": "Scott J.K. Carnahan",
     "templateGenerator.fields.email": "scott.carnahan@colorado.edu",
     "templateGenerator.fields.link": "in/sjkcarnahan",
-    "codeTemplateTool.userInput.confirmOnEnter": true
+    "codeTemplateTool.userInput.confirmOnEnter": true,
+    "[latex]": {},
+    "files.associations": {
+        "*.ltx": "latex"
+    }
 }
